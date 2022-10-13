@@ -1,0 +1,7 @@
+# README
+
+To run the pipeline, click "Play" or, in a terminal, run:
+
+```
+./run.sh
+```
