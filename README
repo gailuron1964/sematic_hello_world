@@ -3,5 +3,12 @@
 To run the pipeline, click "Play" or, in a terminal, run:
 
 ```
-./run.sh
+sematic start
+python -m hello_world --name 'Knight who says Nee
+```
+
+To stop:
+
+```
+sematic stop
 ```

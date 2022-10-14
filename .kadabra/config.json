@@ -1,0 +1,12 @@
+{
+  "version": "0.0.1",
+  "run": {
+    "executable": "bash",
+    "args": ["-c", "sematic start && python -m hello_world --name 'Knight who says Nee'"]
+  },
+  "stop": {
+    "executable": "sematic",
+    "args": ["stop"]
+  },
+  "fileToOpenOnStartup": ["hello_world", "__main__.py"]
+}

@@ -1,7 +1,6 @@
 import argparse
 
-from sematic.cli.start import start
-from hello_world.pipeline import pipeline
+from .pipeline import pipeline
 
 if __name__ == "__main__":
   parser = argparse.ArgumentParser("Hello World")
